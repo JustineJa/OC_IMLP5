@@ -1,4 +1,4 @@
 def entrypoint():
-    print(“Voici 'entrypoint”)
+    print(“Voici l'entrypoint”)
 
 entrypoint()
