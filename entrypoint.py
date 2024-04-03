@@ -1,3 +1,3 @@
-def entrypoint(txt):
-    print(txt)
-entrypoint(txt)
+def entrypoint():
+    print('Hello world')
+entrypoint()
