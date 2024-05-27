@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Analyse questions Stackoverflow : </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/mydashboard.js"></script>
+  </head>
+
+  <body>
+  
+    <div class="content">
+      <header>
+        <div class="header-background"></div>
+        <div class="title">
+          <h1>
+            Bienvenue sur l'API
+          </h1>
+        </div>
+      </header>
+      
+      <main>
+        <div class="chartContainer">
+        </div>
+
+	  <div class="input">
+          <h3>
+            Merci d'écrire votre texte dans la textbox ci dessous puis de cliquer sur le bouton "Suggestion de tags"
+          </h3>
+          
+          <script
+	          type="module"
+	          src="https://gradio.s3-us-west-2.amazonaws.com/4.28.3/gradio.js"
+          ></script>
+
+          <gradio-app src="https://justinej-oc-p5.hf.space"></gradio-app>
+    <p>
+    </p>
+
+    </div>
+
+      </main>
+    </div>
+    
+  </body>
+  
+</html>
