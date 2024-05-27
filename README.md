@@ -1,6 +1,6 @@
 # OC_IMLP5 : Catégoriser automatiquement des questions
 
-Introduction:
+Introduction: <br/>
 L'objectif de ce projet est d'utiliser un échantillon de données récupérées sur la base de données de questions du site StackOverflow afin d'implémenter un modèle permettant la suggestion automatique de tags aux utilisateurs une fois qu'ils ont rédigé leur question. 
 
 _Plusieurs Notebooks :_
