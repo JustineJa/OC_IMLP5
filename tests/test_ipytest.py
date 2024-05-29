@@ -1,5 +1,5 @@
-import ipytest
-ipytest.autoconfig()
+import pytest
+pytest.autoconfig()
 
 def test_pred():
     question = "how to install python on linux ?"
@@ -7,4 +7,4 @@ def test_pred():
     list = ['python', 'linux']
     assert len(answer) == len(list) and sorted(answer) == sorted(list)
 
-ipytest.run('-vv')
+pytest.run('-vv')
